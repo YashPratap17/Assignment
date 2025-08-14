@@ -1,6 +1,9 @@
-x=int(input("Enter the first"))
-y=int(input("Enter the second"))
+x=int(input("Enter the first number: "))
+y=int(input("Enter the second number: "))
 x,y=y,x
-print("The first number is:", x)
-
-print("The second number is:", y)
+print("Before swapping, 1st no.",x)
+print("Before swapping,8" \
+" 2nd no.",y)
+print("After swapping: ")
+print("The first number is: ", x)
+print("The second number is: ", y)
